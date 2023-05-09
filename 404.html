@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Compre seu carro</title>
+</head>
+<body>
+    <form method = "post" action="http://vansan.com.br/form_teste/recebe.php"></form>
+
+<main>
+    <p><strong> Procura um carro...</strong></p>
+      <input type="radio" name="usado ou novo" value="novo">novo
+      <input type="radio" name="usado ou novo" value="usado">usado/seminovo
+      <hr>
+
+    <p> Selecione sua marca de preferência
+    <select name="ano" size = 1> 
+
+    <option selected value="SIM">Não tenho preferências
+        <option value ="AUD"> Audi
+            <option value ="BMW"> BMW
+                <option value ="CHERR"> Chery
+                    <option value ="Chevr"> Chevrolet
+                        <option value ="CIT"> Citroen
+                            <option value ="Fiat"> Fiat
+                                <option value ="FOR"> Ford
+                                    <option value ="HON"> Honda
+                                        <option value ="Hyu"> Hyundai
+                                            <option value ="IVE">  Iveco
+                                                <option value ="JAC">  JAC
+                                                    <option value ="JEEP"> Jeep
+                                                        <option value ="KIA"> Kia
+                                                            <option value ="LAN">  Land Rover
+                                                                <option value ="LEX"> Lexus
+                                                                    <option value ="MAH">  Mahindra
+                                                                        <option value ="MIT">  Mitsubishi
+                                                                            <option value ="MER-B">  Mercedes-Benz
+                                                                                <option value ="NISS"> Nissan
+                                                                                    <option value ="PEU"> Peugeot
+                                                                                        <option value ="POR">  Porsche
+                                                                                            <option value ="RAM">  RAM
+                                                                                                <option value ="REN"> Renault
+                                                                                                    <option value ="SUB"> Subaru  
+                                                                                                        <option value ="SUZ">  Suzuki
+                                                                                                            <option value ="Toy"> Toyota
+                                                                                                                <option value ="TROL"> Troller
+                                                                                                                    <option value ="VOL"> Volvo
+                                                                                                                     <option value ="Volk"> Volkswagen
+                                                                                                                    <option value="outra" >  Outra
+
+    </p></select>
+<hr>
+
+
+    <p>Selecione a preferência de combustível <select  name = " combustivel" placeholder="EX: diesel" required>
+    <option selected value="flex">flex
+    <option value = "Álcool">Álcool
+    <option value = "Gasolina">Gasolina
+    <option value = "Gás">Gás(GNV)
+    <option value = "Diesel">Diesel
+    <option value = "Etanol">Etanol
+    <option value = "ind">Indiferente
+    <option value = "Motor elétrico">Motor elétrico
+
+    </p></select>
+<hr>
+<p>Quantos lugares de preferência?<select  name="lugares">     
+    
+    <option value = "dois">dois
+    <option selected value = "cinco">cinco
+    <option value = "sete">sete
+    <option value = "nove">nove
+    <option value = "doze">doze
+</p></select>
+ 
+<hr>
+
+
+         <p>Digite a média de preço de seu carro <input name="preço" type="tel" min="10.000,00" placeholder="Ex: 25.000,00"></p>
+    <hr><p>Selecione a preferência de cor do seu carro (opcional)<input name="cor" placeholder="EX: vermelho"></p>
+
+
+    <input type="submit" value="buscar">
+
+    <h2>Não encontrou o que queria? experimente <a href="https://www.webmotors.com.br/carros/estoque?idcmp=s08%3Ac03%3Acb043038214f4894840ab689609b4a9c&tipoveiculo=carros&anunciante=Concession%C3%A1ria%7CLoja&gclsrc=aw.ds&gclid=Cj0KCQjwu-KiBhCsARIsAPztUF0HHAu3k2lWikD-5dfOxfJ1RPcjvCY3ssTKB3LInjCruvCIjW5-IEsaAsm4EALw_wcB" target="blank" id = "mod"><em>explorar alguns modelos</em> </a></h2>
+    <h2>Agora insira suas informações para prosseguir com o atendimento</h2>
+
+
+<p>Digite seu nome<input type="name"></p>
+<p>Digite seu e-mail <input email="" type="email" required></p>
+<p>Digite seu número de telefone <input type="tel" required></p>
+<p>Digite sua mensagem para nós <br> <TEXTAREA NAME="nome" COLS=20 ROWS=3 placeholder="Olá estou à procura de um veículo econômico que comporte cinco pessoas por favor entre em contato"></TEXTAREA>•<textareaname="observacao" rows=4 cols=50></textareaname></p>
+
+<h2>Entraremos em contato o mais rápido possível! Mas, agora, que nota você dá para o atendimento?</h2>
+<input type="range" min =1 max =10 step =1><br>
+
+    <input type ="reset" value="limpar">
+    <input type ="submit" value="enviar">
+</main>
+
+
+
+<style>
+
+#mod{color: blue}
+
+body{
+  background-image: linear-gradient(to left,#e6164a,#364bcf,#35d74a);
+}
+main{
+     
+     background-color: white;
+     width: 600px;
+     padding: 10px;
+     margin: auto;
+     border-radius: 3%;
+     box-shadow: 5px 5px 15px black;
+}
+</style>
+
+</body>
+</html>
